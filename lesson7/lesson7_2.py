@@ -6,6 +6,7 @@ max:int = 100
 count:int = 0
 
 target:int = random.randint(min,max)
+print(target)
 print("===========猜數字遊戲==================\n")
 while(True):    
     keyin:int = pypi.inputInt(f"猜數字範圍{min}~{max}:",min=min,max=max)
