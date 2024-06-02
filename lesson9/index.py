@@ -12,7 +12,7 @@ def main()->None:
 
     BMI = health.cal_bmi(height=height, weight=weight)
     rate = health.get_status(BMI)
-    print(f"您的姓名為 {name}\n您的BMI值為 {BMI}\n您屬於 {rate} 範圍")
+    print(f"您的姓名為 {name}\n您的BMI值為{BMI}\n您屬於 {rate} 範圍")
 
 
 if __name__ == '__main__':

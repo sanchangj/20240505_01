@@ -1,5 +1,6 @@
 def cal_bmi(height:int, weight:int)->float:
     BMI = weight / (height / 100) ** 2
+    BMI=round(BMI,ndigits=2)
     return BMI
 
 def get_status(bmi:float)->str:
